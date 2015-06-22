@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+.main{
+  width: 90%;
+  background-color: white;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+html {
+ height: 100%;
+ margin-bottom: 1px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+
+body{
+  background: black;
+ /* background: url(../images/skyline.jpg) no-repeat center center fixed;*/
+  background-size: cover;
+  color: #373936;
+}
+
+fieldset {
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.navbar-default{
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(248, 248, 248, 0);
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
+  color: #BBB4B4;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: white;
+}
+
+.navbar.navbar-default.navbar-fixed-bottom{
+  text-align: center;
+}
+
+#copy{
+  text-align: center;
+}
+
+#email, #twitter{
+  float: right;
+  color: #BBB4B4;
+}
+.header{
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+p#fullName{
+  font-size: 18em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+}
+
+/*.index_background{
+  background-image: url(../images/skyline.jpg);
+}*/
+
+/********************* ABOUT PAGE ********************************************/
+.main_wrapper{
+  width: 90%;
+}
+
+img#headshot{
+  width: 70%;
+  float: right;
+}
+
+.col-xs-7.photo{
+  text-align: center;
+}
+
+.col-xs-5.about{
+  padding: 2%;
+}
+
+#bio{
+  color: white;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+/********************************* MEDIA QUERIES *********************************/
+
+@media(max-width: 845px){
+  .event-title{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+  .fieldset{
+    border: none;
+  }
+
+  .header{
+    text-align: center;
+  }
+
+  h4.info, h6.info{
+    padding: 5%;
+  }
+
+
+  .order-form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+  }
+
+  .col-sm-2.col-xs-12 > a {
+    color: #E8118B;
+    float: right;
+  }
+
+  h3.date{
+    width: 100%;
+    line-height: 1.5;
+  }
+
+  h3.time{
+    margin-top: 2%;
+    width: 100%;
+    line-height: 1.5;
+  }
+
+  body{
+  }
+  .main {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+
+  fieldset{
+    margin-top: 0px;
+  }
+
+  .about{
+    display:none;
+  }
+
+.col-xs-3.amount > h6{
+  /*text-align: center;*/
+  font-size: 12px;
+  margin: 1px;
+}
+
+.col-xs-4.tax > h6, .col-xs-5.tax > h6{
+  text-align: left;
+  font-size: 12px;
+  margin: 1px;
+  margin-left: 7px;
+}
+
+  form{
+    margin: 0px;
+  }
+}
+
+
+
+
