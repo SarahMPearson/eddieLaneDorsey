@@ -44,13 +44,14 @@ fieldset {
 
 .navbar.navbar-default.navbar-fixed-bottom{
   text-align: center;
+  background-color: black;
 }
 
 #copy{
   text-align: center;
 }
 
-#email, #twitter{
+#email, #twitter, #facebook{
   float: right;
   color: #BBB4B4;
 }
@@ -66,13 +67,10 @@ p#fullName{
   color: white;
 }
 
-/*.index_background{
-  background-image: url(../images/skyline.jpg);
-}*/
-
 /********************* ABOUT PAGE ********************************************/
 .main_wrapper{
   width: 90%;
+  margin-bottom: 20px;
 }
 
 img#headshot{
@@ -80,20 +78,19 @@ img#headshot{
   float: right;
 }
 
-.col-xs-7.photo{
+.col-sm-7.col-xs-12.photo{
   text-align: center;
 }
 
-.col-xs-5.about{
+.col-sm-5.col-xs-12.about{
   padding: 2%;
 }
 
 #bio{
   color: white;
   line-height: 1.5;
+  margin-bottom: 60px;
 }
-
-
 
 
 
@@ -114,34 +111,23 @@ img#headshot{
     border: none;
   }
 
-  .header{
-    text-align: center;
+  .col-sm-5.col-xs-12.about {
+    padding: 2%;
+    margin-left: 5%;
   }
 
-  h4.info, h6.info{
-    padding: 5%;
+  .navbar.navbar-default.navbar-fixed-bottom{
+    display: none;
   }
 
-
-  .order-form{
-    width: 100%;
+  img#headshot{
+    float:none;
     margin: 0 auto;
-    padding: 5%;
   }
 
-  .col-sm-2.col-xs-12 > a {
-    color: #E8118B;
-    float: right;
-  }
-
-  h3.date{
-    width: 100%;
-    line-height: 1.5;
-  }
-
-  h3.time{
-    margin-top: 2%;
-    width: 100%;
+  #bio{
+    text-align: center;
+    color: white;
     line-height: 1.5;
   }
 
@@ -157,22 +143,6 @@ img#headshot{
     margin-top: 0px;
   }
 
-  .about{
-    display:none;
-  }
-
-.col-xs-3.amount > h6{
-  /*text-align: center;*/
-  font-size: 12px;
-  margin: 1px;
-}
-
-.col-xs-4.tax > h6, .col-xs-5.tax > h6{
-  text-align: left;
-  font-size: 12px;
-  margin: 1px;
-  margin-left: 7px;
-}
 
   form{
     margin: 0px;

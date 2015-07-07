@@ -2,7 +2,7 @@
 
 .main{
   width: 90%;
-  background-color: white;
+  background-color: rgba(180, 180, 180, .8);
   margin-bottom: 2%;
   margin-right: auto;
   margin-left: auto;
@@ -45,13 +45,14 @@ fieldset {
 
 .navbar.navbar-default.navbar-fixed-bottom{
   text-align: center;
+  background-color: black;
 }
 
 #copy{
   text-align: center;
 }
 
-#email, #twitter{
+#email, #twitter, #facebook{
   float: right;
   color: #BBB4B4;
 }
@@ -123,12 +124,14 @@ img#headshot{
     padding: 5%;
   }
 
-
-  .order-form{
-    width: 100%;
-    margin: 0 auto;
-    padding: 5%;
+  p#fullName{
+    font-size: 7em;
   }
+
+  .navbar.navbar-default.navbar-fixed-bottom{
+    display: none;
+  }
+
 
   .col-sm-2.col-xs-12 > a {
     color: #E8118B;
