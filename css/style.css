@@ -68,36 +68,6 @@ p#fullName{
   color: white;
 }
 
-/*.index_background{
-  background-image: url(../images/skyline.jpg);
-}*/
-
-/********************* ABOUT PAGE ********************************************/
-.main_wrapper{
-  width: 90%;
-}
-
-img#headshot{
-  width: 70%;
-  float: right;
-}
-
-.col-xs-7.photo{
-  text-align: center;
-}
-
-.col-xs-5.about{
-  padding: 2%;
-}
-
-#bio{
-  color: white;
-  line-height: 1.5;
-}
-
-
-
-
 
 
 /********************************* MEDIA QUERIES *********************************/

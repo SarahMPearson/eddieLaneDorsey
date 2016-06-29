@@ -11,6 +11,7 @@
     <link rel='stylesheet' href='css/normalize.css'>
     <link rel='stylesheet' href='css/bootstrap.css'>
     <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/stories.css'>
   </head>
 
   <body>
@@ -28,41 +29,49 @@
         </div>
       </div>
     </nav>
-    <div class="row">
+    <div class="row stories center">
       <div class="col-xs-12">
-        <p>STORIES</p>
+        <div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#romance" aria-controls="romance" role="tab" data-toggle="tab">Romance</a></li>
+            <li role="presentation"><a href="#erotica" aria-controls="erotica" role="tab" data-toggle="tab">Erotica</a></li>
+            <li role="presentation"><a href="#blog" aria-controls="blog" role="tab" data-toggle="tab">Blog</a></li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="romance">Romance stories coming soon!</div>
+            <div role="tabpanel" class="tab-pane fade" id="erotica">Erotica stories arriving soon!</div>
+            <div role="tabpanel" class="tab-pane fade" id="blog">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="well center">
+                    <a href="http://eddielanedorsey.blogspot.com/">Lane's Random Musings</a>
+                  </div>
+                  <div class="well center">
+                    <a href="http://tampatramp.blogspot.com/">Tampa Tramp</a>
+                  </div>
+                </div> <!-- closes col-xs-12 -->
+              </div> <!-- closes row -->
+            </div> <!-- closes tab panel for blog -->
+          </div>
+
+        </div>
       </div>
     </div>
     <div class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
         <p id="copy" class="navbar-text i fa fa-copyright">&nbsp; 2015 Eddie Lane Dorsey</p>
         <a id="email" href="mailto:eddielanedorsey@gmail.com" class="fa fa-envelope-o fa-4x">&nbsp;</a>
-        <a id="twitter" href="http://www.twitter.com/sasspearson" class="fa fa-twitter fa-4x">&nbsp;</a>
+        <a id="twitter" href="http://www.twitter.com/EddieLaneDorsey" class="fa fa-twitter fa-4x">&nbsp;</a>
+        <a id="facebook" href="http://www.facebook.com/Eddie-Lane-Dorsey-655063624615876/" class="fa fa-facebook fa-4x">&nbsp;</a>
       </div>
     </div>
-    <div class="container">
-
-      <div id="small" class="row visible-xs">
-        <div class="col-xs-12">
-          <p class="wordsSMALL"> <a href="stories.html" class="photographer">Stories | </a></p>
-        </div>
-      </div>
-      <div class="row visible-xs">
-        <div class="col-xs-12">
-          <p class="wordsSMALL"> <a href="about.html" class="photographer">About | </a></p>
-        </div>
-      </div>
-      <div class="row visible-xs">
-        <div class="col-xs-12">
-          <p class="wordsSMALL"> <a href="gallery.html" class="photographer">Photographer</a></p>
-        </div>
-      </div>
-    </div> <!-- ends container -->
 
       <script src='js/modernizr.js'></script>
       <script src="js/jquery.js"></script>
       <script src='js/bootstrap.min.js'></script>
-      <script src='js/main.js'></script>
       <script src='js/jquery.validate.js'></script>
 
 

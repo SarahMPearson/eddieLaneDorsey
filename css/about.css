@@ -1,72 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 
-.main{
-  width: 90%;
-  background-color: white;
-  margin-bottom: 2%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-html {
- height: 100%;
- margin-bottom: 1px;
- overflow-y: scroll;
- overflow-x: hidden;
-}
-
 body{
   background: black;
- /* background: url(../images/skyline.jpg) no-repeat center center fixed;*/
   background-size: cover;
   color: #373936;
 }
 
-fieldset {
-  border: none;
-  font-weight: bold;
-  border-radius: 10px;
-  text-align: center;
-}
 
-.navbar-default{
-  background-color: rgba(248, 248, 248, 0);
-  border-color: rgba(248, 248, 248, 0);
-}
-
-.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a{
-  color: #BBB4B4;
-}
-
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-}
-
-.navbar.navbar-default.navbar-fixed-bottom{
-  text-align: center;
-  background-color: black;
-}
 
 #copy{
   text-align: center;
 }
 
-#email, #twitter, #facebook{
-  float: right;
-  color: #BBB4B4;
-}
 .header{
   text-align: center;
   margin-bottom: 3px;
 }
 
-p#fullName{
-  font-size: 18em;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
+h1{
   color: white;
 }
-
 /********************* ABOUT PAGE ********************************************/
 .main_wrapper{
   width: 90%;
